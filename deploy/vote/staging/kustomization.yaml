@@ -20,3 +20,10 @@ images:
 replicas:
   - name: vote
     count: 4
+
+
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=STAGING
+      - OPTION_B=DEV
