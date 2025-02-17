@@ -16,7 +16,7 @@ commonAnnotations:
 
 images:
   - name: schoolofdevops/vote
-    newTag: v5
+    newTag: v7
 replicas:
   - name: vote
     count: 3
