@@ -19,7 +19,7 @@ images:
     newTag: v7
 replicas:
   - name: vote
-    count: 3
+    count: 1
 
 
 configMapGenerator:
